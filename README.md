@@ -1,4 +1,4 @@
-# My Raspberry Pi projetcs
+# My Raspberry Pi easy projetcs for you
 
 ## How to Install Alpine Linux on a Pi
 * How to do it [YouTube Link](https://www.youtube.com/playlist?list=PLJLtDhjIXxVUTWNq97O71LMt2KICNkpve)
