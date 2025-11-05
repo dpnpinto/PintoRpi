@@ -6,8 +6,8 @@
 ## Ad Guard on a Pi with Alpine Linux
 * Coming Soon
 
-## 50 Buck's full computer
+## 50 Buck's full Arch Linux computer
 * coming Soon
 
-## A today nice Spetrum Machine
+## A nice Spetrum Machine emulator
 * coming Soon
