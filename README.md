@@ -9,5 +9,5 @@
 ## 50 Buck's full Arch Linux computer
 * coming Soon
 
-## A nice Spetrum Machine emulator
+## A nice ZX Spetrum emulator
 * coming Soon
