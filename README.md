@@ -6,7 +6,7 @@
 ## Ad Guard on a Pi with Alpine Linux
 * How to do it [YouTube AdGuard Home Play List](https://www.youtube.com/playlist?list=PLJLtDhjIXxVXg9R7xpWRgCXFSWbQjPc8R)
 
-## 50 Buck's full Arch Linux computer
+## 50 Buck's full Arch Linux Computer on a Pi
 * coming Soon
   
 | Item               | Value Euros   |  Buy on Amazon          |
