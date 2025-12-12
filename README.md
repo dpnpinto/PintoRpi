@@ -9,6 +9,7 @@
 ## 50 Buck's full Arch Linux computer
 * coming Soon
 * Used software and hardware
+  
 | Item               | Value Euros   |  Buy on Amazon          |
 | ------------------ | ------------- | ----------------------- |
 | Pi Zero 2W         | 23 €          | [https://amzn.to/496J5FM](https://amzn.to/496J5FM) |
