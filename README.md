@@ -8,7 +8,6 @@
 
 ## 50 Buck's full Arch Linux computer
 * coming Soon
-* Used software and hardware
   
 | Item               | Value Euros   |  Buy on Amazon          |
 | ------------------ | ------------- | ----------------------- |
