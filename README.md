@@ -12,10 +12,11 @@
 | Item               | Value Euros   |  Buy on Amazon          |
 | ------------------ | ------------- | ----------------------- |
 | Pi Zero 2W         | 23 €          | [https://amzn.to/496J5FM](https://amzn.to/496J5FM) |
+| SD Card            | 7 €           | [https://amzn.to/3MEs3WM](https://amzn.to/3MEs3WM) | 
 | Mini Keyboard      | 9 €           | [https://amzn.to/454jmey](https://amzn.to/454jmey) |
 | Micro USB to USB A | 5 €           | [https://amzn.to/4jcOoal](https://amzn.to/4jcOoal) |
 | Micro HDMI to HDMI | 6 €           | [https://amzn.to/4jcOoal](https://amzn.to/3XQFZ2g) |
-| Total              | 43 €          |                                                    |
+| Total              | 50 €          |                                                    |
 
 ## A nice ZX Spetrum emulator
 * coming Soon
