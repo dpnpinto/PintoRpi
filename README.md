@@ -18,5 +18,5 @@
 | Micro HDMI to HDMI | 6 €           | [https://amzn.to/4jcOoal](https://amzn.to/3XQFZ2g) |
 | Total              | 50 €          |                                                    |
 
-## A nice ZX Spetrum emulator
+## A nice ZX Spectrum emulator
 * coming Soon
