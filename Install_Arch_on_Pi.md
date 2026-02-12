@@ -1,7 +1,7 @@
 # Como fazer instalação Arch Linux (PintArch) no Rapberry Pi
 
-* [BASH Arch Install PintArch](#BASH-Arch-Install-PintArch)
-* [Arch Linux Wiki e video](#Arch-Linux-Wiki-e-video)
+* [Descarregar ficheiro tar com ficheiros](#Descarregar-ficheiro-tar-com-ficheiros)
+* [Formatar disco microsd](#Formatar-disco-microsd)
 * [Colocar o teclado em PT de Portugal](#Colocar-o-teclado-em-PT-de-Portugal)
 * [Verificar se tem internet](#Verificar-se-tem-internet)
 * [Para WIFI utilizar o iwctl](#Para-WIFI-utilizar-o-iwctl)
@@ -20,16 +20,30 @@
 * [Concluir sistema base Arch Linux](#Concluir-sistema-base-Arch-Linux)
 
 
-## Arch Linux Install
+## Descarregar ficheiro tar com ficheiros
 
-Manual de instalação resumido na página [ArchLinuxArm](https://archlinuxarm.org)
-* Para o Pi Zero 2W - https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-zero-2
+Manual de instalação resumido na página [ArchLinuxArm](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-zero-2)
+* Para o Pi Zero 2W, vamos utilizar imagem 64bit pelo que devemos descarreagr [http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-armv7-latest.tar.gz ](http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz)
+```console
+wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz
+```
 
-## Arch Linux Wiki e video
+## Formatar disco microsd
 
-* https://wiki.archlinux.org/
-* https://www.youtube.com/watch?v=rUEnS1zj1DM - Exemplo
+colocar o microsd no computador com o adaptador e no local de leitura proprio se o equipaemnto tiver leitor.
 
+* verificar onde está o device
+```console
+wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz
+```  
+* Neste exemplo vamos considerar que o device ficou no sdb, vamos defenir o sd com formato MBR e criar duas partições
+* Primeira partição primária com 512MB do tipo FAT32
+* Segunda partição primária com restante dimensão do SD do tipo Linux
+* Defenir a primeira partição como partição de boot
+* 
+```console
+fdisk /dev/sdb
+```
 ## Colocar o teclado em PT de Portugal
 
 * Para encontrar os mapas de teclas **localectl list-keymaps | grep pt**
