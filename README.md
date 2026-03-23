@@ -38,7 +38,28 @@ Using fdisk, create two partitions in the Micro SD
 * 6 - unmout ./boot and ./root;
 
 ### First Boot
-...
+ ```bash
+echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
+reboot
+```
+* 2 - Create a autentication config file for the wpa_suplicant
+```bash
+wpa_passphrase "your SSID" "your password" > /etc/wpa_supplicant/wpa_supplicat.conf
+```
+* 3 - Conect the WIFI and get an ip from router
+```bash
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicat.conf
+dhcpcd
+```
+* 4 - Update keys of Arch Linux Arm
+```bash
+pacman-key --init
+pacman-key --populate archlinuxarm
+```
+* 5 - Update and upgarde the system and install some apps
+```bash
+pacman -Syu htop fastfetch vim
+```
 
 ## A nice ZX Spectrum emulator
 * coming Soon
