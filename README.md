@@ -46,7 +46,7 @@ reboot
 ```bash
 wpa_passphrase "your SSID" "your password" > /etc/wpa_supplicant/wpa_supplicat.conf
 ```
-* 3 - Conect the WIFI and get an ip from router
+* 3 - Conect the WIFI and get an IP from router
 ```bash
 wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicat.conf
 dhcpcd
