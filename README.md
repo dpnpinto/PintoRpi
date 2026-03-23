@@ -62,5 +62,7 @@ pacman-key --populate archlinuxarm
 ```bash
 pacman -Syu htop fastfetch vim
 ```
+### General configs and regional setings
+---
 ## A nice ZX Spectrum emulator
 * coming Soon
