@@ -38,6 +38,7 @@ Using fdisk, create two partitions in the Micro SD
 * 6 - unmout ./boot and ./root;
 
 ### First Boot
+Enter with root user. For Arch linux ARM the password is root.
  ```bash
 echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
 reboot
