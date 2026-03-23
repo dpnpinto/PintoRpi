@@ -39,6 +39,7 @@ Using fdisk, create two partitions in the Micro SD
 
 ### First Boot
 Enter with root user. For Arch linux ARM the password is root.
+* 1 - Get rid of the but with the Brodcom WIFI with wpa_suplicant
  ```bash
 echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
 reboot
