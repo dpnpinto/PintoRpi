@@ -39,18 +39,18 @@ Using fdisk, create two partitions in the Micro SD
 
 ### First Boot
 Enter with root user. For Arch linux ARM the password is root.
-* 1 - Get rid of the but with the Brodcom WIFI with wpa_suplicant
+* 1 - Get rid of the bug with the Broadcom WIFI with wpa_supplicant
  ```bash
 echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
 reboot
 ```
 * 2 - Create a autentication config file for the wpa_suplicant
 ```bash
-wpa_passphrase "your SSID" "your password" > /etc/wpa_supplicant/wpa_supplicat.conf
+wpa_passphrase "your SSID" "your password" > /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 * 3 - Conect the WIFI and get an IP from router
 ```bash
-wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicat.conf
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
 dhcpcd
 ```
 * 4 - Update keys of Arch Linux Arm
