@@ -38,7 +38,7 @@ Using fdisk, create two partitions in the Micro SD
 * 6 - unmout ./boot and ./root;
 
 ### First Boot
- ```BASH
+ ```bash
 echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
 reboot
 ```
