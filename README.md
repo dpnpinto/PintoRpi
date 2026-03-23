@@ -63,5 +63,5 @@ pacman -Syu htop fastfetch vim
 ```
 ### General configs and regional setings
 ---
-## A nice ZX Spectrum emulator
+## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 * coming Soon
