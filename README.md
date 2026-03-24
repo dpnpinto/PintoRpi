@@ -72,6 +72,14 @@ mv wpa_supplicant.conf wpa_supplicant-wlan0.conf
 systemctl enable wpa_supplicant@wlan0.service
 systemcrl enable dhcpcd
 ```
+* 2 - Set local time the example is for [Azores](https://www.visitazores.com/en) and Portuguese
+```bash
+ln -sf /usr/share/zoneinfo/Atlantic/Azores /etc/localtime
+timedatectl
+echo pt_PT.UTF-8 UTF-8 > /etc/locale.conf
+locale-gen
+echo KEYMAP=pt-latin1 >> /etc/vconsole.conf
+```
 
 Try it whith a nice reboot
 
