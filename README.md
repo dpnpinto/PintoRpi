@@ -58,7 +58,7 @@ dhcpcd
 pacman-key --init
 pacman-key --populate archlinuxarm
 ```
-* 5 - Update and upgarde the system and install some apps
+* 5 - Update and upgrade the system and install some apps
 ```bash
 pacman -Syu htop fastfetch vim
 ```
