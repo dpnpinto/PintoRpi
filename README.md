@@ -78,8 +78,9 @@ ln -sf /usr/share/zoneinfo/Atlantic/Azores /etc/localtime
 timedatectl
 echo pt_PT.UTF-8 UTF-8 > /etc/locale.gen
 locale-gen
-echo pt_PT.UTF-8 UTF-8 > /etc/locale.conf
+echo LANG=pt_PT.UTF-8 > /etc/locale.conf
 echo KEYMAP=pt-latin1 >> /etc/vconsole.conf
+localectl
 ```
 
 Try it whith a nice reboot
