@@ -65,10 +65,14 @@ pacman -Syu htop fastfetch vim
 ### General configs and regional settings
 Now we area going to make the 50 bucks pc start with all correct stuff 
 
-* 1 - Start your network every with systemd
+* 1 - Start your network every time in the init system in Arch Linux the systemd
 ```bash
+cd /etc/wpa_supplicant/
+mv wpa_supplicant.conf wpa_supplicant-wlan0.conf
 systemctl enable wpa_supplicant@wlan0.service
+systemcrl enable dhcpcd
 ```
+
 Try it whith a nice reboot
 
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
