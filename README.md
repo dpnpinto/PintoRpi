@@ -82,8 +82,19 @@ echo LANG=pt_PT.UTF-8 > /etc/locale.conf
 echo KEYMAP=pt-latin1 >> /etc/vconsole.conf
 localectl
 ```
+* 3 - Some more tweaks and software
+Edit with su the /etc/pacman.conf and uncoment #Color and add ILoveCandy ( ;) )
+Install sudo
+```bash
+pacman -S sudo
+```
+uncoment the grup wheel in the file */etc/sudoers*
+exit from su, now you can use sudo
+```bash
+sudo pacman -S git river-classic waybar fuzzel foot swaybg
+```
 
-Try it whith a nice reboot
+
 
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 * coming Soon
