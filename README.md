@@ -92,7 +92,7 @@ pacman -S sudo
 uncoment the grup wheel in the file */etc/sudoers*
 exit from su, now you can use sudo
 ```bash
-sudo pacman -S git river-classic waybar fuzzel foot swaybg
+sudo pacman -S git sway fuzzel foot swaybg
 ```
 Clone my configs
 ```bash
