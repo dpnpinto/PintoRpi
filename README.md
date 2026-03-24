@@ -38,6 +38,7 @@ Using fdisk, create two partitions in the Micro SD
 
 ### First Boot
 Enter with root user. For Arch linux ARM the password is root.
+
 * 1 - Get rid of the bug with the Broadcom WIFI with wpa_supplicant
  ```bash
 echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
@@ -62,6 +63,13 @@ pacman-key --populate archlinuxarm
 pacman -Syu htop fastfetch vim
 ```
 ### General configs and regional setings
----
+Now we area going to make the 50 bucks pc start with all correct stuff 
+
+* 1 - Start your network every with systemd
+```bash
+systemctl enable wpa_supplicant@wlan0.service
+```
+Try it whith a nice reboot
+
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 * coming Soon
