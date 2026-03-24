@@ -83,6 +83,7 @@ echo KEYMAP=pt-latin1 >> /etc/vconsole.conf
 localectl
 ```
 * 3 - Some more tweaks and software
+ 
 Edit with su the /etc/pacman.conf and uncoment #Color and add ILoveCandy ( ;) )
 Install sudo
 ```bash
@@ -93,8 +94,10 @@ exit from su, now you can use sudo
 ```bash
 sudo pacman -S git river-classic waybar fuzzel foot swaybg
 ```
-
-
-
+Clone my configs
+```bash
+git clone https://github.com/dpnpinto/PintoWay
+```
+...
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 * coming Soon
