@@ -20,8 +20,8 @@
 ### Create system for first boot
 #### Create partions
 Using fdisk, create two partitions in the Micro SD
-* 1 - Create first primary partition, with 1Gbyte and fat32, for boot;
-* 2 - Create second primary partition, withe rest of the space in ext4, for root.
+* 1 - Create first primary partition, with 1Gbyte and fat 32, for boot;
+* 2 - Create second primary partition, with the rest of the space in ext4, for root.
 #### Format partitions
 * 1 - Format first partition with ** makefs.vfat /dev/"first partition" **;
 * 2 - Formata second partion with ** makefs.ext4 /dev/"second aprtiton" **.
@@ -31,7 +31,7 @@ Using fdisk, create two partitions in the Micro SD
 * 1 - Create a folder with two subfolders root and boot;
 * 2 - Mount frst partition in boot and second in root;
 * 3 - Move your tar file to the root folder;
-* 3 - Extract the tar file and detel the tar (you dont need it anymore);
+* 3 - Extract the tar file and delete the tar (you dont need it anymore);
 * 4 - Move all files from root/boot to the boot;
 * 5 - Correct the fstab to mount the /boot (first partition) and / (second partition);
 * 6 - unmout ./boot and ./root;
