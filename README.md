@@ -96,7 +96,7 @@ sudo pacman -S git sway fuzzel foot swaybg
 ```
 Clone my configs
 ```bash
-git clone https://github.com/dpnpinto/PintoWay
+git clone https://github.com/dpnpinto/PintoRpi
 ```
 ...
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
