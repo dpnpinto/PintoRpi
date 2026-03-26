@@ -98,7 +98,7 @@ Clone my configs
 ```bash
 git clone https://github.com/dpnpinto/PintoRpi
 ```
-### A grapical enviroment for RaspberryPi (video 4)
+### A graphical enviroment for RaspberryPi (video 4)
 
 ...
 
