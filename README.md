@@ -17,7 +17,7 @@
 | Micro HDMI to HDMI | 6 €           | [https://amzn.to/4jcOoal](https://amzn.to/3XQFZ2g) |
 | Total              | 50 €          |                                                    |
 
-### Create system for first boot
+### Create system for first boot (video 1)
 #### Create partions
 Using fdisk, create two partitions in the Micro SD
 * 1 - Create first primary partition, with 1Gbyte and fat 32, for boot;
@@ -36,7 +36,7 @@ Using fdisk, create two partitions in the Micro SD
 * 5 - Correct the fstab to mount the /boot (first partition) and / (second partition);
 * 6 - unmout ./boot and ./root;
 
-### First Boot
+### First Boot (video 2)
 Enter with root user. For Arch linux ARM the password is root.
 
 * 1 - Get rid of the bug with the Broadcom WIFI with wpa_supplicant
@@ -62,7 +62,7 @@ pacman-key --populate archlinuxarm
 ```bash
 pacman -Syu htop fastfetch vim
 ```
-### General configs and regional settings
+### General configs and regional settings (video 3)
 Now we area going to make the 50 bucks pc start with all correct stuff 
 
 * 1 - Start your network every time in the init system in Arch Linux the systemd
@@ -98,6 +98,9 @@ Clone my configs
 ```bash
 git clone https://github.com/dpnpinto/PintoRpi
 ```
+### A grapical enviroment for RaspberryPi (video 4)
+
 ...
+
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 * coming Soon
