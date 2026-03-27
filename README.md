@@ -7,6 +7,8 @@
 
 ## 50 Buck's full Arch Linux Computer on a Pi
 * Install Arch Linux in a Rapberryp Pi Zero 2W
+It is a very nice plataform to understand Linux and a nice distribution like Arch Linux.
+If it can run in a Pi zero it just can run in everything. :)
   
 | Item               | Value Euros   |  Buy on Amazon          |
 | ------------------ | ------------- | ----------------------- |
