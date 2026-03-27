@@ -68,7 +68,7 @@ riverctl map normal Super Return spawn $terminal
 riverctl map normal Super D spawn $menu
 
 # File manager
-riverctl map normal Super S spawn $filemanager
+riverctl map normal Super S spawn $fileman
 
 # Internet Browser
 riverctl map normal Super W spawn $browser

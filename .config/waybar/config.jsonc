@@ -1,0 +1,25 @@
+{
+  "style": "~/.config/waybar/style.css",
+  
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  
+  "modules-left": [
+    "custom/launcher",
+    "river/tags"
+  ],
+  
+  
+  "modules-right": [
+    "custom/updates",
+    "memory",
+    "cpu",
+    "pulseaudio",
+    "network",
+    "custom/vpn",
+    "clock"
+  ],
+
+  "include": "~/.config/waybar/modules.jsonc"
+}
