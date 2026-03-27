@@ -70,10 +70,8 @@ riverctl map normal Super D spawn $menu # App launcher
 riverctl map normal Super S spawn $fileman # File manager
 riverctl map normal Super W spawn $browser # Internet Browser
 
-# Close window
+# Close window and close session
 riverctl map normal Super Q close
-
-# Close Session
 riverctl map normal Super+Shift Q exit
 
 # Start layout generator (blocks)
