@@ -82,7 +82,7 @@ timedatectl
 echo pt_PT.UTF-8 UTF-8 > /etc/locale.gen
 locale-gen
 echo LANG=pt_PT.UTF-8 > /etc/locale.conf
-echo KEYMAP=pt-latin1 >> /etc/vconsole.conf
+echo KEYMAP=pt-latin1 > /etc/vconsole.conf
 localectl
 ```
 * 3 - Some more tweaks and software
