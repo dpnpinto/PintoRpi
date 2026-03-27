@@ -88,11 +88,11 @@ localectl
 * 3 - Some more tweaks and software
  
 Edit with su the /etc/pacman.conf and uncoment #Color and add ILoveCandy ( ;) )
-Install sudo
+Install basic tools to build Arch Linux packages and sudo as dependency
 ```bash
-pacman -S sudo
+pacman -S base-devel
 ```
-uncoment the grup wheel in the file */etc/sudoers*
+Uncoment the grup wheel in the file */etc/sudoers*
 exit from su, now you can use sudo
 ```bash
 sudo pacman -S git river fuzzel foot swaybg
