@@ -8,8 +8,8 @@
 ## 50 Buck's full Arch Linux Computer on a Pi
 * Install Arch Linux in a Rapberryp Pi Zero 2W
 
-It is a very nice platform to understand Linux and a good distribution like Arch Linux.
-If it can run in a Pi zero 2 it just can run in everything. ;)
+This $50 beast is the ultimate playground for mastering Linux. Installing a legendary distro like Arch Linux on it is basically the digital version of a black belt initiation.
+Think about it: if you can get it purring on a Pi Zero 2, you can pretty much run it on a smart toaster or a vintage calculator. If it has a heartbeat, it can run Arch! ;)
   
 | Item               | Value Euros   |  Buy on Amazon          |
 | ------------------ | ------------- | ----------------------- |
@@ -106,4 +106,8 @@ git clone https://github.com/dpnpinto/PintoRpi
 ...
 
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
+For me, the (ZX Spectrum 48K)[https://worldofspectrum.org] was the absolute GOAT (Greatest Of All Time). It was my very first computer—a literal magic box that let me bend code to my will!
+
+Fast forward to today: I've got this $50 micro-computer that was clearly inspired by the Spectrum’s 'affordable-but-scrappy' soul. It might be cheap, but it's got potential. Time to fire up a killer emulator and relive the glory days!
+
 * coming Soon
