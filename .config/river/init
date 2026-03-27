@@ -64,17 +64,11 @@ riverctl map-pointer normal Super BTN_LEFT move-view
 riverctl map-pointer normal Super BTN_RIGHT resize-view
 riverctl map-pointer normal Super BTN_MIDDLE toggle-float
 
-# Terminal
-riverctl map normal Super Return spawn $terminal
-
-# App launcher
-riverctl map normal Super D spawn $menu
-
-# File manager
-riverctl map normal Super S spawn $fileman
-
-# Internet Browser
-riverctl map normal Super W spawn $browser
+# Aplications with keys sortcuts
+riverctl map normal Super Return spawn $terminal # Terminal
+riverctl map normal Super D spawn $menu # App launcher
+riverctl map normal Super S spawn $fileman # File manager
+riverctl map normal Super W spawn $browser # Internet Browser
 
 # Close window
 riverctl map normal Super Q close
