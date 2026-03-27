@@ -1,7 +1,13 @@
 #!/bin/bash
 # I like river because the config file is in bash :)
+# Default software to use
 
-# Ddefault layout
+term=foot # Terminal
+browser=vivaldi # Internet Browser
+fileman=pcmanfm # Filme Manager
+menu=fuzzel # Menu to start apps
+
+# Default layout
 riverctl default-layout rivertile
 
 # Keyboard layout
@@ -56,19 +62,22 @@ riverctl map-pointer normal Super BTN_RIGHT resize-view
 riverctl map-pointer normal Super BTN_MIDDLE toggle-float
 
 # Terminal
-riverctl map normal Super Return spawn foot
+riverctl map normal Super Return spawn $terminal
+
+# App launcher
+riverctl map normal Super D spawn $menu
+
+# File manager
+riverctl map normal Super S spawn $filemanager
+
+# Internet Browser
+riverctl map normal Super W spawn $browser
 
 # Close window
 riverctl map normal Super Q close
 
 # Close Session
 riverctl map normal Super+Shift Q exit
-
-# App launcher
-riverctl map normal Super D spawn fuzzel
-
-# File manager
-riverctl map normal Super S spawn pcmanfm
 
 # Start layout generator (blocks)
 exec rivertile -view-padding 1 -outer-padding 1
