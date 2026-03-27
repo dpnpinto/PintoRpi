@@ -1,0 +1,73 @@
+#!/bin/sh
+
+# Ddefault layout
+riverctl default-layout rivertile
+
+# Keyboard layout
+riverctl keyboard-layout pt
+
+# Secure start of status bar
+riverctl spawn waybar
+
+# Secure BG image
+riverctl spawn "swaybg -i ~/.config/bgimg/space_arch.png"
+
+# Toggle Float
+riverctl map normal Super+Shift Space toggle-float
+
+# Zoom/focus selected window to main
+riverctl map normal Super Space zoom
+
+# Toggle fullscreen
+riverctl map normal Super F toggle-fullscreen
+
+# Super+J and Super+K move from active window
+riverctl map normal Super J focus-view next
+riverctl map normal Super K focus-view previous
+
+# Super+H and Super+L to decrease/increase the main ratio of rivertile(1)
+riverctl map normal Super H send-layout-cmd rivertile "main-ratio -0.05"
+riverctl map normal Super L send-layout-cmd rivertile "main-ratio +0.05"
+
+# Switching from tags
+for i in $(seq 1 9)
+do
+    tags=$((1 << ($i - 1)))
+    # Focus tag
+    riverctl map normal Super $i set-focused-tags $tags
+    # Move window to tag
+    riverctl map normal Super+Shift $i set-view-tags $tags
+done
+
+# Appearance
+riverctl background-color 0x000000
+riverctl border-color-focused 0xff7a93
+riverctl border-color-unfocused 0x00ffd2
+riverctl border-width 2
+
+# Cursor
+riverctl focus-follows-cursor normal
+riverctl hide-cursor when-typing enabled
+
+# Mouse
+riverctl map-pointer normal Super BTN_LEFT move-view
+riverctl map-pointer normal Super BTN_RIGHT resize-view
+riverctl map-pointer normal Super BTN_MIDDLE toggle-float
+
+# Terminal
+riverctl map normal Super Return spawn foot
+
+# Close window
+riverctl map normal Super Q close
+
+# Close Session
+riverctl map normal Super+Shift Q exit
+
+# App launcher
+riverctl map normal Super D spawn fuzzel
+
+# File manager
+riverctl map normal Super S spawn pcmanfm
+
+# Start layout generator (blocks)
+exec rivertile -view-padding 1 -outer-padding 1
