@@ -64,8 +64,8 @@ riverctl map-pointer normal Super BTN_MIDDLE toggle-float
 # Aplications with keys sortcuts
 riverctl map normal Super Return spawn $terminal # Terminal
 riverctl map normal Super D spawn $menu # App launcher
-riverctl map normal Super S spawn $fileman # File manager
-riverctl map normal Super W spawn $browser # Internet Browser
+riverctl map normal Super S spawn "foot -e $fileman" # File manager
+riverctl map normal Super W spawn "foot -e $browser" # Internet Browser
 
 # Close window and close session
 riverctl map normal Super Q close
