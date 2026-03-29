@@ -1,6 +1,6 @@
 #
 # ~/.bash_profile
 #!/bin/bash
-if [ -z "$WAYLAND_DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ] ; then
-    exec river
+if [ -z "$WAYLAND_DISPLAY" ] && [ $(tty) = "/dev/tty1" ]; then
+  exec river
 fi
