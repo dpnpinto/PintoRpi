@@ -5,9 +5,9 @@
 # wlr-randr --output "HDMI-A-1" --mode 1920x1080@60.000000 --pos 1920,0
 
 # Default software to use
-export term=foot # Terminal
-export browser=vivaldi # Internet Browser
-export fileman=pcmanfm # Filme Manager
+export terminal=foot # Terminal
+export browser=lynx # Internet Browser
+export fileman=yazi # Filme Manager
 export menu=fuzzel # Menu to start apps
 
 # Default layout
