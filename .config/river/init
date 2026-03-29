@@ -13,8 +13,12 @@ export menu=fuzzel # Menu to start apps
 # Default layout
 riverctl default-layout rivertile
 
+
 # Keyboard layout
 riverctl keyboard-layout pt
+
+# Change Super to Control
+mainMod="Control"
 
 # Secure start of status bar
 riverctl spawn waybar
