@@ -9,7 +9,7 @@
 * Install Arch Linux in a Rapberryp Pi Zero 2W
 
 This €50 beast is the ultimate playground for mastering Linux. Installing a legendary distro like Arch Linux on it is basically the digital version of a black belt initiation.
-Think about it: if you can get it purring on a Pi Zero 2, you can pretty much run it on a smart toaster or a vintage calculator. If it has a heartbeat, it can run Arch! ;)
+Think about it: if you can get it purring on a Pi Zero 2, you can pretty much run it on a smart toaster or a vintage calculator. If it has a heartbeat, it can run Arch Linux ! ;)
   
 | Item               | Value Euros   |  Buy on Amazon          |
 | ------------------ | ------------- | ----------------------- |
