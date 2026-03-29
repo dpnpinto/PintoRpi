@@ -1,48 +1,30 @@
-# For more options and information see
-# http://rptl.io/configtxt
-# Some settings may impact device functionality. See link above for details
+# --- Graphics & Display ---
+# Use the open-source Full KMS driver (Required for Wayland/Sway/Hyprland)
+dtoverlay=vc4-kms-v3d
+# Limit GPU memory to save system RAM. 
+# 64MB is the "sweet spot" for a 1080p Wayland session on 512MB total RAM.
+gpu_mem=64
 
-# Uncomment some or all of these to enable the optional hardware interfaces
-#dtparam=i2c_arm=on
-#dtparam=i2s=on
-#dtparam=spi=on
+# --- CPU & Performance ---
+# Enable 64-bit mode (The Zero 2 W supports arm64)
+arm_64bit=1
+# Minimal overclock (Optional: Zero 2 usually handles 1.2GHz safely)
+# arm_freq=1200
 
-# Enable audio (loads snd_bcm2835)
+# --- Hardware Interfaces ---
+# Disable what you don't use to save power/interupts
 dtparam=audio=on
+dtparam=bluetooth=off  # Uncomment to disable BT
+dtparam=spi=off        # Uncomment to disable SPI
+dtparam=i2c_arm=off    # Uncomment to disable I2C
 
-# Additional overlays and parameters are documented
-# /boot/firmware/overlays/README
+# --- Boot Behavior ---
+# Disable the rainbow splash screen for a cleaner boot
+disable_splash=1
+# Use a standard UART for console if needed
+enable_uart=1
 
-# Automatically load overlays for detected cameras
+# --- Camera / Display Auto-detect ---
 camera_auto_detect=1
-
-# Automatically load overlays for detected DSI displays
 display_auto_detect=1
 
-# Automatically load initramfs files, if found
-auto_initramfs=1
-
-# Enable DRM VC4 V3D driver
-dtoverlay=vc4-kms-v3d
-max_framebuffers=2
-
-# Don't have the firmware create an initial video= setting in cmdline.txt.
-# Use the kernel's default instead.
-disable_fw_kms_setup=1
-
-# Disable compensation for displays with overscan
-disable_overscan=1
-
-# Run as fast as firmware / board allows
-arm_boost=1
-
-[cm4]
-# Enable host mode on the 2711 built-in XHCI USB controller.
-# This line should be removed if the legacy DWC2 controller is required
-# (e.g. for USB device mode) or if USB support is not required.
-otg_mode=1
-
-[cm5]
-dtoverlay=dwc2,dr_mode=host
-
-[all]
