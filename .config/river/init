@@ -19,9 +19,6 @@ riverctl keyboard-layout pt
 # Secure start of status bar
 riverctl spawn waybar
 
-# Secure BG image
-riverctl spawn "swaybg -i ~/.config/bgimg/space_arch.png"
-
 # Toggle Float
 riverctl map normal Super+Shift Space toggle-float
 
