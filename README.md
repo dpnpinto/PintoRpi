@@ -95,7 +95,7 @@ pacman -S base-devel
 Uncoment the grup wheel in the file */etc/sudoers*
 exit from su, now you can use sudo
 ```bash
-sudo pacman -S git river fuzzel foot
+sudo pacman -S git river-classic fuzzel foot
 ```
 Clone my configs
 ```bash
