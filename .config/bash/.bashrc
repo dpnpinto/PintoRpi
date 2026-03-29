@@ -7,6 +7,16 @@ export PATH=$PATH:~/.local/bin
 export TERM=foot
 export EDITOR=vim
 
+export \
+    XDG_SESSION_TYPE=wayland \
+    GDK_BACKEND=wayland \
+    QT_QPA_PLATFORM=wayland-egl \
+    MOZ_ENABLE_WAYLAND=1 \
+    CLUTTER_BACKEND=wayland \
+    SDL_VIDEODRIVER=wayland \
+    ELM_DISPLAY=wl \
+    _JAVA_AWT_WM_NONREPARENTING=1
+
 # Get some nie  aliases for colors and stuff
 
 alias ls='eza --icons'
