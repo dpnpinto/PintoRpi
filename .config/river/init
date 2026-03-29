@@ -5,10 +5,10 @@
 # wlr-randr --output "HDMI-A-1" --mode 1920x1080@60.000000 --pos 1920,0
 
 # Default software to use
-term=foot # Terminal
-browser=vivaldi # Internet Browser
-fileman=pcmanfm # Filme Manager
-menu=fuzzel # Menu to start apps
+export term=foot # Terminal
+export browser=vivaldi # Internet Browser
+export fileman=pcmanfm # Filme Manager
+export menu=fuzzel # Menu to start apps
 
 # Default layout
 riverctl default-layout rivertile
