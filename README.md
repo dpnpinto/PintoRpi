@@ -95,7 +95,7 @@ Install basic tools to build Arch Linux packages and sudo as dependency
 ```bash
 pacman -S base-devel
 ```
-Uncoment the grup wheel in the file */etc/sudoers*
+Uncoment the group wheel in the file */etc/sudoers*
 exit from su, now you can use sudo
 ```bash
 sudo pacman -S git river-classic fuzzel foot
@@ -105,7 +105,7 @@ Clone my configs
 git clone https://github.com/dpnpinto/PintoRpi
 ```
 ### A light graphical enviroment for RaspberryPi Zero 2 (video 4)
-
+Yeah, let's add some bloat to this beauty. I usually prefer keeping things lean, but hey—people love their eye candy.
 
 #### Main software in use
 
