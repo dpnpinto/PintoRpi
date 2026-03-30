@@ -32,6 +32,9 @@ Using fdisk, create two partitions in the Micro SD
 * wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz
 #### Create Systen to boot
 * 1 - Create a folder with two subfolders root and boot;
+...bash
+  mkdir -p rpi_project/{root,boot}
+...
 * 2 - Mount frst partition in boot and second in root;
 * 3 - Move your tar file to the root folder;
 * 3 - Extract the tar file and delete the tar (you dont need it anymore);
