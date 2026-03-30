@@ -101,7 +101,7 @@ Clone my configs
 ```bash
 git clone https://github.com/dpnpinto/PintoRpi
 ```
-### A graphical enviroment for RaspberryPi (video 4)
+### A light graphical enviroment for RaspberryPi Zero 2 (video 4)
 
 
 #### Main software in use
