@@ -50,11 +50,11 @@ Enter with root user. For Arch linux ARM the password is root.
 echo "options brcmfmac feature_disable=0x82000" > /etc/modprobe.d/brcmfmac.conf
 reboot
 ```
-* 2 - Create a autentication config file for the wpa_suplicant
+* 2 - Create a autentication config file for the wpa_supplicant
 ```bash
 wpa_passphrase "your SSID" "your password" > /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-* 3 - Conect the WIFI and get an IP from router
+* 3 - Connect the WIFI and get an IP from router
 ```bash
 wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
 dhcpcd
