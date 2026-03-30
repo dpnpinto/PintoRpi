@@ -103,7 +103,20 @@ git clone https://github.com/dpnpinto/PintoRpi
 ```
 ### A graphical enviroment for RaspberryPi (video 4)
 
+
+#### Main software in use
+
+* Windows Manager - River Classic
+* Bar for WM - Waybar
+* Start Menu - Fuzzel
+* Terminar Emulator - Foot
+* Browser - Lynx
+* File Manager - Yazel
+* Editor - Vim
+
 ...
+
+
 
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 For me, the [ZX Spectrum 48K](https://worldofspectrum.org) was the absolute GOAT (Greatest Of All Time). It was my very first computer—a literal magic box that let me bend code to my will!
