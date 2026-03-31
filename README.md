@@ -105,7 +105,9 @@ Clone my configs
 git clone https://github.com/dpnpinto/PintoRpi
 ```
 ### A light graphical enviroment for RaspberryPi Zero 2 (video 4)
+
 Yeah, let's add some bloat to this beauty. I usually prefer keeping things lean, but hey—people love their eye candy.
+This one is easy implemented in easy mode ways. Just clone the repository cd into it and *bash install.sh*
 
 #### Main software in use
 
@@ -116,10 +118,6 @@ Yeah, let's add some bloat to this beauty. I usually prefer keeping things lean,
 * Browser - Lynx
 * File Manager - Yazel
 * Editor - Vim
-
-...
-
-
 
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
 For me, the [ZX Spectrum 48K](https://worldofspectrum.org) was the absolute GOAT (Greatest Of All Time). It was my very first computer—a literal magic box that let me bend code to my will!
