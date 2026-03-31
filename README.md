@@ -107,10 +107,9 @@ git clone https://github.com/dpnpinto/PintoRpi
 ### A light graphical enviroment for RaspberryPi Zero 2 (video 4)
 
 Yeah, let's add some bloat to this beauty. I usually prefer keeping things lean, but hey—people love their eye candy.
-This one is easy implemented in easy mode ways. Just clone the repository cd into it and *bash install.sh*
+This one is implemented in a easy mode ways. Just clone the repository cd into it and *bash install.sh*
 
 #### Main software in use
-
 * Windows Manager - River Classic
 * Bar for WM - Waybar
 * Start Menu - Fuzzel
