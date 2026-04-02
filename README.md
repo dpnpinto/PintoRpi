@@ -20,7 +20,7 @@ Think about it: if you can get it purring on a Pi Zero 2, you can pretty much ru
 | Micro HDMI to HDMI | 6 €           | [https://amzn.to/4jcOoal](https://amzn.to/3XQFZ2g) |
 | Total              | 50 €          |                                                    |
 
-### Create system for first boot (video 1)
+### Create system for first boot [video 1](https://youtu.be/OIpU-rj6bvY)
 #### Create partions
 Using fdisk, create two partitions in the Micro SD
 * 1 - Create first primary partition, with 1Gbyte and fat 32, for boot;
