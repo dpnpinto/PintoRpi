@@ -42,7 +42,7 @@ Using fdisk, create two partitions in the Micro SD
 * 5 - Correct the fstab to mount the /boot (first partition) and / (second partition);
 * 6 - unmout ./boot and ./root;
 
-### First Boot (video 2)
+### First Boot [video 2](https://youtu.be/f7ocAijm5BM)
 Enter with root user. For Arch linux ARM the password is root.
 
 * 1 - Get rid of the bug with the Broadcom WIFI with wpa_supplicant
