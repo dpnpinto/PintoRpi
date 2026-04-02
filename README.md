@@ -5,8 +5,8 @@
 ## [AdGuard](https://adguard.com/en/welcome.html) on a Pi with Alpine Linux
 * How to do it [YouTube AdGuard Home Play List](https://www.youtube.com/playlist?list=PLJLtDhjIXxVXg9R7xpWRgCXFSWbQjPc8R)
 
-## 50 Buck's full Arch Linux Computer on a Pi
-* Install Arch Linux in a Rapberryp Pi Zero 2W (video instroduction)
+## 50 Buck's full Arch Linux Computer on a Pi (Introduction)[https://youtu.be/lvnJa0r-8R8]
+* Install Arch Linux in a Rapberryp Pi Zero 2W
 
 This €50 beast is the ultimate playground for mastering Linux. Installing a legendary distro like Arch Linux on it is basically the digital version of a black belt initiation.
 Think about it: if you can get it purring on a Pi Zero 2, you can pretty much run it on a smart toaster or a vintage calculator. If it has a heartbeat, it can run Arch Linux ! ;)
