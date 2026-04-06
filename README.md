@@ -5,7 +5,7 @@
 ## [AdGuard](https://adguard.com/en/welcome.html) on a Pi with Alpine Linux
 * How to do it [YouTube AdGuard Home Play List](https://www.youtube.com/playlist?list=PLJLtDhjIXxVXg9R7xpWRgCXFSWbQjPc8R)
 
-## 50 Buck's full Arch Linux Computer on a Pi [Introduction](https://youtu.be/lvnJa0r-8R8)
+## 50 Buck's full Arch Linux Computer on a Pi [Introduction Video](https://youtu.be/lvnJa0r-8R8)
 * Install Arch Linux in a Rapberryp Pi Zero 2W
 
 This €50 beast is the ultimate playground for mastering Linux. Installing a legendary distro like Arch Linux on it is basically the digital version of a black belt initiation.
@@ -20,7 +20,7 @@ Think about it: if you can get it purring on a Pi Zero 2, you can pretty much ru
 | Micro HDMI to HDMI | 6 €           | [https://amzn.to/4jcOoal](https://amzn.to/3XQFZ2g) |
 | Total              | 50 €          |                                                    |
 
-### Create system for first boot [video 1](https://youtu.be/OIpU-rj6bvY)
+### Create system for first boot [video 1 - First Boot](https://youtu.be/OIpU-rj6bvY)
 #### Create partions
 Using fdisk, create two partitions in the Micro SD
 * 1 - Create first primary partition, with 1Gbyte and fat 32, for boot;
@@ -42,7 +42,7 @@ Using fdisk, create two partitions in the Micro SD
 * 5 - Correct the fstab to mount the /boot (first partition) and / (second partition);
 * 6 - unmout ./boot and ./root;
 
-### First Boot [video 2](https://youtu.be/f7ocAijm5BM)
+### First Boot [video 2 - Configs](https://youtu.be/f7ocAijm5BM)
 Enter with root user. For Arch linux ARM the password is root.
 
 * 1 - Get rid of the bug with the Broadcom WIFI with wpa_supplicant
@@ -68,7 +68,7 @@ pacman-key --populate archlinuxarm
 ```bash
 pacman -Syu htop fastfetch vim
 ```
-### General configs and regional settings [video 3](https://youtu.be/pCKzU1uMee0)
+### General configs and regional settings [video 3 - Remote general configs](https://youtu.be/pCKzU1uMee0)
 Now we area going to make the 50 bucks pc start with all correct stuff 
 
 * 1 - Start your network every time in the init system in Arch Linux the systemd
@@ -104,7 +104,7 @@ Clone my configs
 ```bash
 git clone https://github.com/dpnpinto/PintoRpi
 ```
-### A light graphical enviroment for RaspberryPi Zero 2 [video 4](https://youtu.be/IP8EbzXDD3s)
+### A light graphical enviroment for RaspberryPi Zero 2 [video 4 - GUI config](https://youtu.be/IP8EbzXDD3s)
 
 Yeah, let's add some bloat to this beauty. I usually prefer keeping things lean, but hey—people love their eye candy.
 This one is implemented in a easy mode way. Just clone the repository cd into it and *bash install.sh*
