@@ -128,4 +128,7 @@ For me, the [ZX Spectrum 48K](https://worldofspectrum.org) was the absolute GOAT
 
 Fast forward to today: I've got this $50 micro-computer that was clearly inspired by the Spectrum’s 'affordable-but-scrappy' soul. It might be cheap, but it's got potential. Time to fire up a killer emulator and relive the glory days!
 
-* coming Soon
+So in honnor to my son, the good old times and my Spanish Brothers this will use:
+
+* Void Linux;
+* Spectrum Emulator.
