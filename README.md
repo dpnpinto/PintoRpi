@@ -27,7 +27,7 @@ Using fdisk, create two partitions in the Micro SD
 * 2 - Create second primary partition, with the rest of the space in ext4, for root.
 #### Format partitions
 * 1 - Format first partition with ** makefs.vfat /dev/"first partition" **;
-* 2 - Formata second partion with ** makefs.ext4 /dev/"second aprtiton" **.
+* 2 - Format second partion with ** makefs.ext4 /dev/"second aprtiton" **.
 #### Download system from [Arch Linux Arm](https://archlinuxarm.org)
 * wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz
 #### Create Systen to boot
