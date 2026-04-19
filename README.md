@@ -130,6 +130,6 @@ Fast forward to today: I've got this $50 micro-computer that was clearly inspire
 
 So in honnor to my son and the good old times:
 
-* Spectrum Emulator - (fbzx)[https://gitlab.com/rastersoft/fbzx]
+* Spectrum Emulator - [fbzx](https://gitlab.com/rastersoft/fbzx)
 * 50 buck's PC with Arch Linux ;)
-* (Buy a Zx Spctrum from Amazon and suport my Youtube Channel)[https://amzn.to/3QOEocR]
+* [Buy a Zx Spctrum from Amazon and suport my Youtube Channel](https://amzn.to/3QOEocR)
