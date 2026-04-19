@@ -132,5 +132,5 @@ So in honnor to my son and the good old times:
 
 * Spectrum Emulator - [fbzx](https://gitlab.com/rastersoft/fbzx)
 * 50 buck's PC with Arch Linux ;)
-* Gamest tested from https://worldofspectrum.net
+* Games used in test from https://worldofspectrum.net
 * [Buy a ZX Spectrum from Amazon and support my YouTube channel](https://amzn.to/3QOEocR)
