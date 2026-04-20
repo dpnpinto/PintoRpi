@@ -124,7 +124,7 @@ bash install.sh
 * File Manager - Yazel
 * Editor - Vim
 
-## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
+## A nice ZX Spectrum emulator for the 50 buck's PC
 For me, the [ZX Spectrum 48K](https://loadzx.com) was the absolute GOAT (Greatest Of All Time). It was my very first computer—a literal magic box that let me bend code to my will!
 
 Fast forward to today: I've got this $50 micro-computer that was clearly inspired by the Spectrum’s 'affordable-but-scrappy' soul. It might be cheap, but it's got potential. Time to fire up a killer emulator and relive the glory days!
