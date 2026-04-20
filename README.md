@@ -125,7 +125,7 @@ bash install.sh
 * Editor - Vim
 
 ## A nice [ZX Spectrum](https://worldofspectrum.org) emulator
-For me, the [ZX Spectrum 48K](https://worldofspectrum.org) was the absolute GOAT (Greatest Of All Time). It was my very first computer—a literal magic box that let me bend code to my will!
+For me, the [ZX Spectrum 48K](https://loadzx.com) was the absolute GOAT (Greatest Of All Time). It was my very first computer—a literal magic box that let me bend code to my will!
 
 Fast forward to today: I've got this $50 micro-computer that was clearly inspired by the Spectrum’s 'affordable-but-scrappy' soul. It might be cheap, but it's got potential. Time to fire up a killer emulator and relive the glory days!
 
