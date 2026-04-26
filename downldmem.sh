@@ -10,3 +10,8 @@ Make it permanent: Add to /etc/fstab.
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 Verify:
 sudo swapon --show or free -h
+
+# Example command in U-Boot console
+setenv bootargs ${bootargs} zswap.enabled=1
+saveenv
+boot
