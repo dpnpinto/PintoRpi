@@ -18,7 +18,7 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 sudo swapon --show
 free -h
 
-# Command in U-Boot console "boot.txt"
+# Enable zswap with command in U-Boot console "boot.txt"
 # setenv bootargs ${bootargs} zswap.enabled=1
 # saveenv
 # boot
