@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 #install all soft
 # river uses seat
 apk add seatd
@@ -6,8 +7,8 @@ rc-update add seatd
 rc-service seatd start 
 doas adduser $USER seat
 # I like this font
-doas apk add font-jetbrains-mono-nerd waybar river-classic foot fuzzel fastfetch eza tree bat dysk yazi ncdu lynx
+doas apk add font-jetbrains-mono-nerd ncurses waybar river-classic river-classic-doc foot fuzzel fastfetch eza tree bat dysk yazi ncdu lynx
 # copy all files to .config in home directory
 cp -rv ./.config/* ~/.config/
 rm ~/.config/fastfetch/*
-cp ./.config/bash/.* ~/
+cp ./.config/bash/.* ~
