@@ -6,7 +6,7 @@ rc-update add seatd
 rc-service seatd start 
 doas adduser $USER seat
 # I like this font
-sudo pacman -S font-jetbrains-mono-nerd waybar river-classic foot fuzzel fastfetch eza tree bat dysk yazi ncdu lynx
+doas apk add font-jetbrains-mono-nerd waybar river-classic foot fuzzel fastfetch eza tree bat dysk yazi ncdu lynx
 # copy all files to .config in home directory
 cp -rv ./.config/* ~/.config/
 rm ~/.config/fastfetch/*
