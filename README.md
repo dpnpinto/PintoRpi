@@ -3,7 +3,7 @@
 
 * [How to Install Alpine Linux on a Pi](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#adguard-on-a-pi-with-alpine-linux))
 * [AdGuard on a Pi with Alpine Linux](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#50-bucks-full-arch-linux-computer-on-a-pi)
-* [50 Buck's full Arch Linux Computer on a Pi](##50_Buck's_full_Arch_Linux_Computer_on_a_Pi)
+* [50 Buck's full Arch Linux Computer on a Pi](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#50-bucks-full-arch-linux-computer-on-a-pi)
 * [A nice ZX Spectrum emulator for the 50 buck's PC](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#a-nice-zx-spectrum-emulator-for-the-50-bucks-pc)
 * [Download some memory to my Pi](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#download-some-memory-to-my-pi)
 
