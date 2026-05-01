@@ -153,3 +153,7 @@ So in honnor to my son and the good old times:
 * [50 buck's PC with Arch Linux ;)](##-50-Buck's-full-Arch-Linux-Computer-on-a-Pi)
 * Games used for testing from https://worldofspectrum.net
 * [Buy a ZX Spectrum from Amazon and support my work](https://amzn.to/3QOEocR)
+
+## Download some memory to my Pi
+
+
