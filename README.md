@@ -1,7 +1,7 @@
 # Nice [Raspberry Pi](https://www.raspberrypi.com) projects for you
 ## MENU
 
-* [How to Install Alpine Linux on a Pi](##How_to_Install_Alpine_Linux_on_a_Pi)
+* [How to Install Alpine Linux on a Pi](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#adguard-on-a-pi-with-alpine-linux))
 * [AdGuard on a Pi with Alpine Linux](##AdGuard_on_a_Pi_with_Alpine_Linux)
 * [50 Buck's full Arch Linux Computer on a Pi](##50_Buck's_full_Arch_Linux_Computer_on_a_Pi)
 * [A nice ZX Spectrum emulator for the 50 buck's PC](https://github.com/dpnpinto/PintoRpi/blob/main/README.md#a-nice-zx-spectrum-emulator-for-the-50-bucks-pc)
