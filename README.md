@@ -156,4 +156,5 @@ So in honnor to my son and the good old times:
 
 ## Download some memory to my Pi
 
+Did you know Arch Linux enables zswap by default? In this video, we'll break down exactly what it is, how it works, and why it's an absolute game-changer for your system's performance. Let's dive in!
 
