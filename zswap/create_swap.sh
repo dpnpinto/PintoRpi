@@ -1,5 +1,5 @@
 #!/bin/bash
-# Create the swap file: (exaample 512MB)
+# Create the swap file: (example 512MB)
 sudo fallocate -l 512M /swapfile
 
 # Set permissions:
