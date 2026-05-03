@@ -1,3 +1,4 @@
+#!/bin/bash
 # Check current parameters
 sudo grep -r . /sys/module/zswap/parameters/
 # enbale the service to personalizae zswap
