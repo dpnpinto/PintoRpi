@@ -6,4 +6,4 @@ sudo cp zswap-config.service /etc/systemd/system
 sudo systemctl daemon-reload
 sudo systemctl enable zswap-config.service
 # Check stats
-sudo grep -r . /sys/kernel/debug/zswap/
+# sudo grep -r . /sys/kernel/debug/zswap/
