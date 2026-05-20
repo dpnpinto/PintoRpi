@@ -87,7 +87,7 @@ pacman-key --populate archlinuxarm
 pacman -Syu htop fastfetch vim
 ```
 ### General configs and regional settings [video 3 - Remote general configs](https://youtu.be/pCKzU1uMee0)
-Now we area going to make the 50 bucks pc start with all correct stuff 
+Now we are going to make the 50 bucks pc start with all correct stuff 
 
 * 1 - Start your network every time in the init system in Arch Linux the systemd
 ```bash
